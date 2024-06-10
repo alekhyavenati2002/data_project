@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: snowflake_sample_data
+    database: snowflake_sample_data
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: store_sales
+      - name: date_dim
+      - name: item
+      - name: customer
+      - name: catalog_sales
+      - name: catalog_returns
+      - name: web_sales
+      - name: store_returns
+      - name: store
+      - name: customer_address
+      - name: web_site
+      - name: web_page
+      - name: web_returns
+      - name: time_dim
+      - name: ship_mode
+      - name: reason
+      - name: customer_demographics
